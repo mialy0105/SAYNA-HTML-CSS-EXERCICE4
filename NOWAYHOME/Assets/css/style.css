@@ -1,0 +1,86 @@
+@font-face{
+    font-family: 'spiderman';
+    src: url("../police/spiderman.otf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+h1 {
+    font-family: 'spiderman', sans-serif;
+    font-size: 32px;
+}
+
+a{ 
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*            header          */
+
+header  .navigation{
+    height: 10vh;
+    padding: 0 4%;
+    display: flex;
+    flex-direction: row;
+    background: #b11313;
+    justify-content: space-around;
+}
+
+header .navigation div.logo {
+    padding: 7px 0;
+}
+
+header .navigation div.logo img {
+    padding-left: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navigation img.marvel_logo , header .navigation nav {
+    width: 50%;
+}
+
+.navigation nav ul {
+    height: 100%;
+    padding-top: 4.5vh;
+}
+
+header .navigation nav li{
+    display: inline;
+    padding-left: 8%;
+}
+
+header .navigation nav li a {
+    color: #fff;
+    font-size: 17px;
+    padding-bottom: 2px;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+
+header .navigation nav li a:hover {
+    border-bottom : 2px solid #114c92;
+}
+
+/*               footer              */
+footer {
+    background: #000;
+    padding: 2% 5%;
+}
+
+footer div.row {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: 1px solid white;
+}
+footer .row li {
+
+}

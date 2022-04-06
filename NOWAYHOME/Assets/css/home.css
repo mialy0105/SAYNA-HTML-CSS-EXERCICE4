@@ -1,0 +1,118 @@
+body {
+    color: #fff;
+    background-color: #b11313;
+}
+.button-white {
+    width: 12em;
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 520;
+    color: #b11313;
+    text-align: center;
+    background: #fff;
+    border-radius: 18px;
+    display: inline-block;
+    border: 2px solid #fff;
+}
+
+.button-white:hover {
+    color: #fff;
+    background: none;
+}
+
+header, .banner {
+    position: relative;
+    background: #b11313;
+}
+
+header .banner .text-container {
+    top: 29%;
+    left: 12%;
+    color: #fff;
+    position: absolute;
+}
+
+header  h1.hero_name {
+    font-size: 5em;
+    font-weight: 300;
+    padding-bottom: 10%;
+    text-transform: uppercase;
+}
+
+header .banner .buttons{
+    padding-bottom: 8%;
+}
+
+header .banner .buttons a{
+    width: 32%;
+    width: 12em;
+    padding: 3% 3%;
+    text-align: center;
+    border-radius: 18px;
+    display: inline-block;
+    
+}
+
+header .banner .buttons .reverse {
+    color: #fff;
+    margin-left: 5%;
+    background: none;
+}
+
+header .banner .buttons a.reverse:hover {
+    color: #b11313;
+    background: #fff;
+}
+
+header .banner p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/*            all-spiderman         */
+section.presentation {
+    padding: 0 12%;
+}
+
+.presentation h1{
+    font-weight: 350;
+    padding-bottom: 15px;
+}
+
+.presentation p {
+    width: 55%;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.all-spiderman {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-spiderman figure {
+    width: 27%;
+}
+
+.all-spiderman figure img{
+    width: 100%;
+}
+
+.all-spiderman figure figcaption {
+    padding: 50px 0;
+    line-height: 20px;
+    font-size: 14.5px;
+    text-align: justify;
+}
+
+.all-spiderman figure figcaption ul li{
+    font-size: 14px;
+    margin-left: 2em;
+    list-style-type: disc;
+}
+
+.all-spiderman figure .button-white {
+    margin: 0 20%;
+}
+
+

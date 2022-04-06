@@ -1,0 +1,148 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900');
+
+@font-face{
+    font-family: 'far_from_homecoming' ;
+    src:url(../police/Far-From-Homecoming.woff2) format('Opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteneur{
+    width: 80%;
+    margin: 0 auto;
+}
+
+:root{
+    --primary-ad-color:#f1c530;
+    --primary-ad-black:#000000;
+    --primary-ad-white:#ffffff;
+}
+
+ul{
+     list-style-type: none;
+}
+/* la partie Design de la bare de navigation*/
+nav{
+    background-color: var(--primary-ad-color);
+    padding:  16px 0;
+}
+
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .brand img{
+    padding-left: 20px;
+}
+
+nav .brand img:nth-child(2){
+    padding-bottom: 25px;
+}
+
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul li{
+    margin-left: 70px;
+    font-size: 20px;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    color: var(--primary-ad-white);
+}
+
+/* le design de la parti hero*/
+
+#hero{
+    background-image: url("../Illustration/img7.png");
+    height: 500px;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero .titre{
+    font-family:'far_from_homecoming';
+    font-size: 5em;
+    font-weight: 100;
+    color: var(--primary-ad-white);
+    position: relative;
+    top: 40%;
+    left: 20%;
+}
+
+#hero .description{
+    font-weight: bold;
+    font-size: 1.4eSm;
+    color: var(--primary-ad-white);
+    position: relative;
+    top: 40%;
+    left: 20%;
+}
+
+/* la section de design de card */
+
+#card-section{
+    background-color: var(--primary-ad-color);
+    padding-top: 30px;
+}
+
+#card-section .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-section .card .card-hero{
+    border: 6px solid;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    box-shadow: 0 4px 14px var(--primary-ad-black);
+
+}
+
+#card-section .card .card-hero .card-image{
+    background-color:blue ;
+    height: 30%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+#card-section .card .card-hero .card-image-1{
+    background-image: url(../Illustration/img8.png);
+}
+
+#card-section .card .card-hero .card-image-2{
+    background-image: url(../Illustration/img9.png);
+}
+
+#card-section .card .card-hero .card-image-3{
+    background-image: url(../Illustration/img10.png);
+}
+
+#card-section .card .card-hero .card-content{
+    margin: 15px;
+    font-size: 15px;
+}
+
+#card-section .card .card-hero .card-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+#card-section .card .card-hero .card-title p{
+    margin-top: 10px;
+}
